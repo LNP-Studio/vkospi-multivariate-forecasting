@@ -8,7 +8,7 @@ The project is structured into two Jupyter Notebook files, each representing a d
 ⸻
 
 📁 Project Structure
-
+```
 project_root/
 │── vkospi_multivariate_forecasting.ipynb        # Preprocessing + AR/VAR/ADL + Granger causality
 │── vkospi_multivariate_DNN_forecasting.ipynb    # Chronos-2 Zero-Shot + BiLSTM forecasting
@@ -19,7 +19,7 @@ project_root/
 │── module.py
 │── train_DL_batch.py
 │── README.md
-
+```
 
 ⸻
 
