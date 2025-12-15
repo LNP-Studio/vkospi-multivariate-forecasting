@@ -114,7 +114,7 @@ BiLSTM	Deep Learning	Learns nonlinear relationships
 
 ## 📈 Evaluation Metrics
 
-All models are evaluated using the following metrics:
+All models are evaluated using the following metrics
 	•	RMSE (Root Mean Squared Error)
 	•	MAE (Mean Absolute Error)
 	•	MAPE (Mean Absolute Percentage Error)
