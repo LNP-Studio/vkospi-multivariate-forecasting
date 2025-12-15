@@ -27,35 +27,35 @@ This notebook contains all classical forecasting workflows, including preprocess
 Included Sections
 
 ✓ Data Preprocessing
-	•	Handling missing values
-	•	Log-return construction
-	•	Rate differencing
-	•	Date alignment across all series
+- Handling missing values
+- Log-return construction
+- Rate differencing
+- Date alignment across all series
 
 ✓ AR (Autoregressive) Model
-	•	BIC-based optimal lag selection
-	•	Rolling 1-step-ahead forecasting
-	•	RMSE / MAE / MAPE evaluation
+- BIC-based optimal lag selection
+- Rolling 1-step-ahead forecasting
+- RMSE / MAE / MAPE evaluation
 
 ✓ VAR (Vector Autoregression)
-	•	Multivariate interaction modeling
-	•	BIC lag selection
-	•	Rolling-window forecasting for realistic performance evaluation
+- Multivariate interaction modeling
+- BIC lag selection
+- Rolling-window forecasting for realistic performance evaluation
 
 ✓ ADL (Autoregressive Distributed Lag)
-	•	Combines lagged target and lagged exogenous variables
-	•	BIC-based selection for (p_y, p_x)
-	•	Re-fitted at every test step
+- Combines lagged target and lagged exogenous variables
+- BIC-based selection for (p_y, p_x)
+- Re-fitted at every test step
 
 ✓ Granger Causality Analysis
-	•	Pairwise Granger tests
-	•	p-value matrix and significance heatmap
+- Pairwise Granger tests
+- p-value matrix and significance heatmap
 
 Outputs
-	•	Full forecast curves
-	•	Rolling predictions
-	•	Error metric tables
-	•	Causal relationship visualization
+- Full forecast curves
+- Rolling predictions
+- Error metric tables
+- Causal relationship visualization
 
 ⸻
 
@@ -70,13 +70,13 @@ This notebook includes deep learning and foundation-model-based forecasting meth
 Amazon’s time-series foundation model.
 
 Features:
-	•	No training required
-	•	Probabilistic forecasting (quantiles: 0.1, 0.5, 0.9)
-	•	Iterative 1-step forecasting
+- No training required
+- Probabilistic forecasting (quantiles: 0.1, 0.5, 0.9)
+- Iterative 1-step forecasting
 
 Benefits:
-	•	Strong out-of-the-box baseline
-	•	Robust under volatility and regime shifts
+- Strong out-of-the-box baseline
+- Robust under volatility and regime shifts
 
 ⸻
 
@@ -85,13 +85,13 @@ Benefits:
 A lightweight learned model.
 
 Model:
-	•	Bidirectional LSTM
-	•	Dense output head
-	•	MSE loss with Adam optimizer
+- Bidirectional LSTM
+- Dense output head
+- MSE loss with Adam optimizer
 
 Training:
-	•	Sliding-window batching
-	•	Training script: train_DL_batch.py
+- Sliding-window batching
+- Training script: train_DL_batch.py
 
 Outputs:
 - Full prediction curves
