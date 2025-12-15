@@ -3,6 +3,7 @@
 This repository contains a complete multivariate time-series forecasting study for the VKOSPI Index, using both classical statistical models and modern deep learning / foundation models.
 The project is structured into two Jupyter Notebook files, each representing a different modeling paradigm.
 
+<img width="973" height="508" alt="image" src="https://github.com/user-attachments/assets/51a7b187-1698-4236-8abd-ac7ff0bcbe44" />
 
 ## 📁 Project Structure
 ```
