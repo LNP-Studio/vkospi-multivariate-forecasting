@@ -94,9 +94,9 @@ Training:
 	•	Training script: train_DL_batch.py
 
 Outputs:
-	•	Full prediction curves
-	•	Zoom-in comparisons
-	•	RMSE / MAE / MAPE metrics
+- Full prediction curves
+- Zoom-in comparisons
+- RMSE / MAE / MAPE metrics
 
 ⸻
 
@@ -115,9 +115,9 @@ BiLSTM	Deep Learning	Learns nonlinear relationships
 ## 📈 Evaluation Metrics
 
 All models are evaluated using the following metrics
-	•	RMSE (Root Mean Squared Error)
-	•	MAE (Mean Absolute Error)
-	•	MAPE (Mean Absolute Percentage Error)
+- RMSE (Root Mean Squared Error)
+- MAE (Mean Absolute Error)
+- MAPE (Mean Absolute Percentage Error)
 
 ⸻
 
