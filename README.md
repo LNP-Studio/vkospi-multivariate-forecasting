@@ -1,13 +1,10 @@
-⸻
-
-📘 VKOSPI Multivariate Forecasting Project
+# VKOSPI Multivariate Forecasting Project
 
 This repository contains a complete multivariate time-series forecasting study for the VKOSPI Index, using both classical statistical models and modern deep learning / foundation models.
 The project is structured into two Jupyter Notebook files, each representing a different modeling paradigm.
 
-⸻
 
-📁 Project Structure
+## 📁 Project Structure
 ```
 project_root/
 │── vkospi_multivariate_forecasting.ipynb        # Preprocessing + AR/VAR/ADL + Granger causality
@@ -23,7 +20,7 @@ project_root/
 
 ⸻
 
-📌 1. vkospi_multivariate_forecasting.ipynb
+## 📌 1. vkospi_multivariate_forecasting.ipynb
 
 This notebook contains all classical forecasting workflows, including preprocessing, statistical modeling, and causality analysis.
 
@@ -62,7 +59,7 @@ Outputs
 
 ⸻
 
-📌 2. vkospi_multivariate_DNN_forecasting.ipynb
+## 📌 2. vkospi_multivariate_DNN_forecasting.ipynb
 
 This notebook includes deep learning and foundation-model-based forecasting methods.
 
@@ -103,7 +100,7 @@ Outputs:
 
 ⸻
 
-📊 Model Comparison Summary
+## 📊 Model Comparison Summary
 
 Model	Category	Notes
 AR	Statistical	Univariate baseline
@@ -115,7 +112,7 @@ BiLSTM	Deep Learning	Learns nonlinear relationships
 
 ⸻
 
-📈 Evaluation Metrics
+## 📈 Evaluation Metrics
 
 All models are evaluated using the following metrics:
 	•	RMSE (Root Mean Squared Error)
@@ -124,7 +121,7 @@ All models are evaluated using the following metrics:
 
 ⸻
 
-🚀 How to Run
+## 🚀 How to Run
 
 1) Install dependencies
 
@@ -148,7 +145,7 @@ vkospi_multivariate_DNN_forecasting.ipynb
 
 ⸻
 
-🧾 Key Findings
+## 🧾 Key Findings
 	•	Chronos-2 provides strong zero-shot performance without training.
 	•	BiLSTM can match or outperform classical models with sufficient training.
 	•	VAR and ADL offer interpretability and strong short-term forecasting ability.
@@ -157,7 +154,7 @@ vkospi_multivariate_DNN_forecasting.ipynb
 
 ⸻
 
-🙋 Contact
+## 🙋 Contact
 
 For questions, feedback, or collaboration inquiries, feel free to open an issue.
 
