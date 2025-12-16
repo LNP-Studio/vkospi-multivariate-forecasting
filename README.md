@@ -124,30 +124,30 @@ All models are evaluated using the following metrics
 
 ## 🚀 How to Run
 
-1) Install dependencies
+### 1) Install dependencies
 
 ``` Requirments
 pip install -r requirements.txt
 ```
 
-2) Place datasets inside data/ directory
+### 2) Place datasets inside data/ directory
 
 The VKOSPI and DGS10 datasets must be available.
 
-3) Open notebooks
+### 3) Open notebooks
 
 Statistical models:
 
-vkospi_multivariate_forecasting.ipynb
+- vkospi_multivariate_forecasting.ipynb
 
 Deep-learning / foundation models:
-- How to Train
+How to Train
 ``` python
 python train_DL_batch.py --model_name LSTM --batch_size 128 -- LR 1e-4 --max_epoch 400 --show_train_loss True --use_scaler True --ft_epoch 50 --ft_LR 1e-5 --window_len 300 --d_model 64
 ```
-- Check metrics and plotting
+Check metrics and plotting
   
-vkospi_multivariate_DNN_forecasting.ipynb
+- vkospi_multivariate_DNN_forecasting.ipynb
 
 
 ⸻
