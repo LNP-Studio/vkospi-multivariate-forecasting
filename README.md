@@ -56,13 +56,13 @@ Included Sections
 - Error metric tables
 - Causal relationship visualization
 
-⸻
+
 
 ## 📌 2. vkospi_multivariate_DNN_forecasting.ipynb
 
 This notebook includes deep learning and foundation-model-based forecasting methods.
 
-⸻
+
 
 ### ✓ Chronos-2 Zero-Shot Forecasting
 
@@ -77,7 +77,7 @@ Benefits:
 - Strong out-of-the-box baseline
 - Robust under volatility and regime shifts
 
-⸻
+
 
 ### ✓ BiLSTM Forecasting
 
@@ -97,7 +97,7 @@ Outputs:
 - Zoom-in comparisons
 - RMSE / MAE / MAPE metrics
 
-⸻
+
 
 ## 📊 Model Comparison Summary
 
@@ -109,7 +109,7 @@ Chronos-2 Zero-Shot	Foundation Model	Strong no-training baseline
 BiLSTM	Deep Learning	Learns nonlinear relationships
 
 
-⸻
+
 
 ## 📈 Evaluation Metrics
 
@@ -118,7 +118,7 @@ All models are evaluated using the following metrics
 - MAE (Mean Absolute Error)
 - MAPE (Mean Absolute Percentage Error)
 
-⸻
+
 
 ## 🚀 How to Run
 
@@ -148,7 +148,7 @@ Check metrics and plotting
 - vkospi_multivariate_DNN_forecasting.ipynb
 
 
-⸻
+
 
 ## 🧾 Key Findings
 	•	Chronos-2 provides strong zero-shot performance without training.
@@ -157,10 +157,9 @@ Check metrics and plotting
 	•	AR serves as a simple but meaningful baseline.
 	•	Granger causality reveals important directional effects between financial variables.
 
-⸻
+
 
 ## 🙋 Contact
 
 For questions, feedback, or collaboration inquiries, feel free to open an issue.
 
-⸻
