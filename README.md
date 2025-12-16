@@ -19,8 +19,6 @@ project_root/
 │── README.md
 ```
 
-⸻
-
 ## 📌 1. vkospi_multivariate_forecasting.ipynb
 
 This notebook contains all classical forecasting workflows, including preprocessing, statistical modeling, and causality analysis.
