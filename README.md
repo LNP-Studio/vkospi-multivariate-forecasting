@@ -126,8 +126,9 @@ All models are evaluated using the following metrics
 
 1) Install dependencies
 
-pip install numpy pandas matplotlib statsmodels seaborn torch
-pip install amazon-chronos
+``` Requirments
+pip install -r requirements.txt
+```
 
 2) Place datasets inside data/ directory
 
