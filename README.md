@@ -140,6 +140,9 @@ Statistical models:
 vkospi_multivariate_forecasting.ipynb
 
 Deep-learning / foundation models:
+```
+python train_DL_batch.py --
+```
 
 vkospi_multivariate_DNN_forecasting.ipynb
 
