@@ -27,32 +27,32 @@ This notebook contains all classical forecasting workflows, including preprocess
 
 Included Sections
 
-✓ Data Preprocessing
+### ✓ Data Preprocessing
 - Handling missing values
 - Log-return construction
 - Rate differencing
 - Date alignment across all series
 
-✓ AR (Autoregressive) Model
+### ✓ AR (Autoregressive) Model
 - BIC-based optimal lag selection
 - Rolling 1-step-ahead forecasting
 - RMSE / MAE / MAPE evaluation
 
-✓ VAR (Vector Autoregression)
+### ✓ VAR (Vector Autoregression)
 - Multivariate interaction modeling
 - BIC lag selection
 - Rolling-window forecasting for realistic performance evaluation
 
-✓ ADL (Autoregressive Distributed Lag)
+### ✓ ADL (Autoregressive Distributed Lag)
 - Combines lagged target and lagged exogenous variables
 - BIC-based selection for (p_y, p_x)
 - Re-fitted at every test step
 
-✓ Granger Causality Analysis
+### ✓ Granger Causality Analysis
 - Pairwise Granger tests
 - p-value matrix and significance heatmap
 
-Outputs
+### Outputs
 - Full forecast curves
 - Rolling predictions
 - Error metric tables
@@ -66,7 +66,7 @@ This notebook includes deep learning and foundation-model-based forecasting meth
 
 ⸻
 
-✓ Chronos-2 Zero-Shot Forecasting
+### ✓ Chronos-2 Zero-Shot Forecasting
 
 Amazon’s time-series foundation model.
 
@@ -81,7 +81,7 @@ Benefits:
 
 ⸻
 
-✓ BiLSTM Forecasting
+### ✓ BiLSTM Forecasting
 
 A lightweight learned model.
 
